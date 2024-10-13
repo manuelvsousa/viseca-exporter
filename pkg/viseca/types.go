@@ -7,6 +7,7 @@ type Transactions struct {
 
 type Transaction struct {
 	TransactionID    string           `json:"transactionId"`
+	ConvertionRate   float64          `json:"convertionRate"`
 	CardID           string           `json:"cardId"`
 	MaskedCardNumber string           `json:"maskedCardNumber"`
 	CardName         string           `json:"cardName"`
